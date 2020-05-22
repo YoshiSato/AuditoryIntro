@@ -13,12 +13,12 @@
 - [440Hz_with_ramp.wav](440Hz_with_ramp.wav)（rampあり）
 - [440Hz_without_ramp.wav](440Hz_without_ramp.wav)（rampなし）
 
-上の2つのファイルは，onset_offset_ramp.mにおいて生成された，rampありとなしの440Hzの純音刺激ファイルです．
+上の2つのファイルは，onset_offset_ramp.mによって生成された，rampありとなしの440Hzの純音刺激ファイルです．
 
 - [correct_volume.wav](correct_volume.wav)（小さくせずに保存）
 - [wrong_volume.wav](wrong_volume.wav)（小さくして保存）
 
-上の2つのファイルは，volume_adjust_miss.mにおいて生成された，音量を小さくする前に保存したファイルと，小さくしてから保存してしまったファイルです．
+上の2つのファイルは，volume_adjust_miss.mによって生成された，音量を小さくする前に保存したファイルと，小さくしてから保存してしまったファイルです．
 
 - [correct_volume_played.wav](correct_volume_played.wav)
 - [wrong_volume_played.wav](wrong_volume_played.wav)
