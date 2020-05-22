@@ -2,7 +2,7 @@
 
 プログラムはMATLAB R2019aにて動作確認をしています．
 
-### デモ用プログラム
+## デモ用プログラム
 - [onset_offset_ramp.m](onset_offset_ramp.m)
   - 純音刺激の先端と末端付近に，0に近づける処理（ramp）を行った刺激と行わない刺激を生成するプログラムです．刺激の生成・再生の例としても参考としてください．
 - [volume_adjust_miss.m](volume_adjust_miss.m)
