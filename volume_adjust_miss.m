@@ -33,7 +33,7 @@ audiowrite('correct_volume.wav', y2, sf);
 % 音を読み込み，再生時に音量を調整．
 y_read = audioread('correct_volume.wav');
 player = audioplayer(y_read * vol, sf);
-player.play;
+play(player);
 pause(2);
 
 % デモ用に再生した信号も保存
@@ -49,7 +49,7 @@ audiowrite('wrong_volume.wav', y2 * vol2, sf);
 % 音の再生時に音量を上げて再生．
 y_read = audioread('wrong_volume.wav');
 player = audioplayer(y_read / vol2 * vol, sf);
-player.play;
+play(player);
 
 % デモ用に再生した信号も保存
 audiowrite('wrong_volume_played.wav', y_read / vol2 * vol, sf);

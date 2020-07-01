@@ -25,12 +25,18 @@ y2 = win .* y;
 
 % 音の再生
 player = audioplayer(y * vol, sf);
-player.play;
+play(player);
 
 pause(2); % 再生開始から2秒待機
 
 player2 = audioplayer(y2 * vol, sf);
-player2.play;
+play(player2);
+
+%% octaveの場合は，以下のように信号の後にゼロを入れないとプツッと聞こえるかもしれません
+% player2 = audioplayer([y2 zeros(1, 1*sf)] * vol, sf);
+% play(player2);
+
+
 
 %%% （ボリューム調整前の）音刺激の保存
 
