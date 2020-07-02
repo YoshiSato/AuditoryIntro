@@ -13,7 +13,7 @@
 ## デモ用プログラム（Mac & Linux用）
 - [onset_offset_ramp_utf8.m](onset_offset_ramp_utf8.m)
 - [volume_adjust_miss_utf8.m](volume_adjust_miss_utf8.m)
-  - Windows用プログラムと内容は同じで，MacやLinux用に文字コードをUTF-8にしたものです．
+Windows用プログラムと内容は同じで，MacやLinux用に文字コードをUTF-8にしたものです．
 
 ## サンプル音ファイル
 - [440Hz_with_ramp.wav](440Hz_with_ramp.wav)（rampあり）
