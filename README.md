@@ -2,12 +2,17 @@
 
 プログラムはMATLAB R2019a（商用ソフトウェア）とOctave 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．ただし，Octaveではグラフのタイトルがうまく表示されなかったり，再生音にノイズが入ったりするかもしれません．
 
-## デモ用プログラム
+## デモ用プログラム（Windows用）
 - [onset_offset_ramp.m](onset_offset_ramp.m)
   - 純音刺激の先端と末端付近に，0に近づける処理（ramp）を行った刺激と行わない刺激を生成するプログラムです．
   - 刺激の生成・再生の例としても参考にしてください．
 - [volume_adjust_miss.m](volume_adjust_miss.m)
   - 一度ボリュームを小さくした音を保存し，後で大きくして再生するというミスを再現するプログラムです．
+
+## デモ用プログラム（Mac & Linux用）
+- [onset_offset_ramp_utf8.m](onset_offset_ramp_utf8.m)
+- [volume_adjust_miss_utf8.m](volume_adjust_miss_utf8.m)
+  - Windows用プログラムと内容は同じで，MacやLinux用に文字コードをUTF-8にしたものです．
 
 ## サンプル音ファイル
 - [440Hz_with_ramp.wav](440Hz_with_ramp.wav)（rampあり）
