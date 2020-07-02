@@ -1,6 +1,6 @@
 # 音刺激作成プログラム ＆ 音刺激ファイル
 
-- プログラムはMATLAB R2019a（商用ソフトウェア）と[Octave](https://www.gnu.org/software/octave/) 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．
+- プログラムはWindows 10でMATLAB R2019a（商用ソフトウェア）と[Octave](https://www.gnu.org/software/octave/) 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．
 - ただし，Octaveでは音ファイルの保存は正しくできるようですが，グラフのタイトルがうまく表示されなかったり，再生音にノイズが入ったりするかもしれません．Octaveで動かす際にはプログラム中のコメントも参照してください．
 
 ## デモ用プログラム（Windows用）
@@ -14,7 +14,7 @@
 - [onset_offset_ramp_utf8.m](onset_offset_ramp_utf8.m)
 - [volume_adjust_miss_utf8.m](volume_adjust_miss_utf8.m)
 
-Windows用プログラムと内容は同じで，MacやLinux用に文字コードをUTF-8にしたものです．
+Windows用プログラムと内容は同じで，MacやLinux用に文字コードをUTF-8にしたものです．ただし，これらのOS上での動作確認はしていません．
 
 ## サンプル音ファイル
 - [440Hz_with_ramp.wav](440Hz_with_ramp.wav)（rampあり）
