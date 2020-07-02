@@ -1,6 +1,6 @@
 # 音刺激作成プログラム ＆ 音刺激ファイル
 
-- プログラムはWindows 10でMATLAB R2019a（商用ソフトウェア）と[Octave](https://www.gnu.org/software/octave/) 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．
+- プログラムはWindows 10でMATLAB R2019a（商用ソフトウェア）と[GNU Octave](https://www.gnu.org/software/octave/) 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．
 - ただし，Octaveでは音ファイルの保存は正しくできるようですが，グラフのタイトルがうまく表示されなかったり，再生音にノイズが入ったりするかもしれません．Octaveで動かす際にはプログラム中のコメントも参照してください．
 
 ## デモ用プログラム（Windows用）
