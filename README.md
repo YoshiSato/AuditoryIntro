@@ -1,6 +1,6 @@
 # 音刺激作成プログラム ＆ 音刺激ファイル
 
-プログラムはMATLAB R2019a（商用ソフトウェア）とOctave 5.2.0（MATLAB互換のフリーウェア）にて動作確認をしています．ただし，Octaveではグラフのタイトルがうまく表示されなかったり，再生音にノイズが入ったりするかもしれません．
+プログラムはMATLAB R2019a（商用ソフトウェア）と[https://www.gnu.org/software/octave/](Octave 5.2.0)（MATLAB互換のフリーウェア）にて動作確認をしています．ただし，Octaveではグラフのタイトルがうまく表示されなかったり，再生音にノイズが入ったりするかもしれません．
 
 ## デモ用プログラム（Windows用）
 - [onset_offset_ramp.m](onset_offset_ramp.m)
